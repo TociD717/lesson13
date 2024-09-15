@@ -1,0 +1,8 @@
+.circle {
+    width: 60px;
+    height: 60px;
+    stroke-width: 5px;
+    stroke: salmon;
+    fill: grey;
+    animation: color-change 1s infinite alternate;
+}

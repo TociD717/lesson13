@@ -1,0 +1,65 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.square {
+  fill: blue;
+  stroke: red;
+  stroke-width: 5px;
+}
+
+.rectangle {
+  fill: magenta;
+  stroke: yellow;
+  stroke-width: 5px;
+}
+
+.ellipse {
+  width: 80px;
+  height: 60px;
+
+  fill: royalblue;
+  stroke: green;
+  stroke-width: 5px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+
+  -webkit-animation: color-change 1s infinite alternate;
+          animation: color-change 1s infinite alternate;
+
+  fill: grey;
+  stroke: salmon;
+  stroke-width: 5px;
+}
+
+@-webkit-keyframes color-change {
+  from {
+    fill: grey;
+    stroke: salmon;
+  }
+  to {
+    fill: seagreen;
+    stroke: purple;
+  }
+}
+
+@keyframes color-change {
+  from {
+    fill: grey;
+    stroke: salmon;
+  }
+  to {
+    fill: seagreen;
+    stroke: purple;
+  }
+}
